@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Fix Json",
+        "command": "fix_json"
+    }
+]
