@@ -7,10 +7,8 @@ def is_valid_json(match):
     matched_group = match.group(1)
     try:
         json.loads(matched_group)
-        print('REPLACE')
         return matched_group
-    except:
-        print('SKIP')
+    except ValueError:
         return match.group(0)
 
 def fix_json(text):
