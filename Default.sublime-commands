@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Fix Json",
+        "caption": "JsonFixUp: Format Json",
         "command": "fix_json"
     }
 ]
